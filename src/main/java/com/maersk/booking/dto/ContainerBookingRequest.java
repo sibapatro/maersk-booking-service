@@ -1,4 +1,4 @@
-// src/main/java/com/maersk/booking/dto/ContainerBookingRequest.java
+
 package com.maersk.booking.dto;
 
 

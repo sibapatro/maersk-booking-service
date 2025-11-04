@@ -7,7 +7,7 @@ spring:
     name: maersk-container-booking
   data:
     mongodb:
-      uri: mongodb://localhost:27017/maersk_booking
+      uri: ${SPRING_DATA_MONGODB_URI:mongodb://localhost:27017/maersk_booking}
   webflux:
     multipart:
       max-in-memory-size: 1MB
